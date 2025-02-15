@@ -1,0 +1,31 @@
+theme: jekyll-theme-cayman
+title: Reflexia Docs
+description: Model-Based Reflex Agents Without Coding
+
+navigation:
+  - name: Home
+    link: /Reflexia.Docs
+  - name: Getting Started
+    link: /Reflexia.Docs/docs/01_index.html
+  - name: Adding Intelligence
+    link: /Reflexia.Docs/docs/01_intelligence/01_index.html
+    subitems:
+      - name: Creating Chip Groups
+        link: /Reflexia.Docs/docs/01_intelligence/02_chip_groups.html
+      - name: Adding Chips
+        link: /Reflexia.Docs/docs/01_intelligence/03_chips.html
+      - name: Defining Conditions
+        link: /Reflexia.Docs/docs/01_intelligence/04_conditions.html
+      - name: Using Variables
+        link: /Reflexia.Docs/docs/01_intelligence/05_variables.html
+      - name: Managing Attributes
+        link: /Reflexia.Docs/docs/01_intelligence/06_attributes.html
+      - name: Defining Actions
+        link: /Reflexia.Docs/docs/01_intelligence/07_actions.html
+  - name: Connecting to a Messaging App
+    link: /Reflexia.Docs/docs/02_terminals/01_index.html
+  - name: Advanced Topics
+    link: /Reflexia.Docs/docs/03_advanced/01_index.html
+    subitems:
+      - name: Advanced Database
+        link: /Reflexia.Docs/docs/03_advanced/02_advanced_database.html
