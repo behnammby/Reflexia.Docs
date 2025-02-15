@@ -1,6 +1,6 @@
-# Reflexia Documentation
+# Reflexia
 
-Welcome to the **Reflexia** documentation! 🎉
+Welcome to the **Reflexia**! 🎉
 
 Reflexia is a powerful web application that enables users to create **model-based reflex agents** without any programming knowledge. By utilizing an intuitive visual interface, Reflexia allows you to define rules, actions, and behaviors for intelligent agents, making automation more accessible than ever.
 
