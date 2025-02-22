@@ -27,7 +27,3 @@ Attributes allow agents to persist data between flows, providing a way to store 
 To create and manage attributes, you can use actions from the **Attribute** category. 
 
 Additionally, you can manage owner attributes in the **General Attributes** section of **Reflexia**.
-
-
-
-📌 [Back to Documentation Home](01_index.md)

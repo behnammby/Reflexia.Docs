@@ -17,8 +17,3 @@ To learn more about adding and configuring individual chips, please visit the [C
 To unlock the full potential of the intelligence section, users can connect their chip groups to various "terminals". The terminals in the intelligence section serve as conduits, channeling the flows of intelligence and insights contained within the chip groups to end-users.
 
 By leveraging the chip group and chip functionality, users can build a comprehensive, customized intelligence system that aligns with their unique business requirements. This empowers them to make more informed, data-driven decisions that drive their organizational success.
-
-
-
-
-📌 [Back to Documentation Home](../01_index.md)

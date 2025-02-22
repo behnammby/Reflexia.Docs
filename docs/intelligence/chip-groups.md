@@ -28,8 +28,3 @@
 
 ## Managing Chip Groups
 - You can modify, delete, or rearrange chip groups as needed through the management interface.
-
-
-
-
-📌 [Back to Documentation Home](01_index.md)

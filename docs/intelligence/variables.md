@@ -197,7 +197,3 @@ Here is a chart that summarizes the different types of variables available in a 
 | **Callback Variables** |
 | `CallbackData` | `PerceptData.Data` |
 | `CallbackId` | `PerceptData.CallbackId` |
-
-
-
-📌 [Back to Documentation Home](01_index.md)

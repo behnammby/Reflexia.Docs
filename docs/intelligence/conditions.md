@@ -71,7 +71,3 @@ Let’s say you want to check if a message contains a specific keyword. You woul
 - Choose the operator `Contain`.
 
 This condition would evaluate to true if the message includes the word "Hello".
-
-
-
-📌 [Back to Documentation Home](01_index.md)

@@ -40,7 +40,3 @@ If there are no chips in the chip group, you can add a new chip set along with a
 ### Visual Connections
 - After adding chips, they are visually connected using lines.
 - You can modify the connections by dragging and dropping these lines.
-
-
-
-📌 [Back to Documentation Home](01_index.md)
