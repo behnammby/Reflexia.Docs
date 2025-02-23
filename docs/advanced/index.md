@@ -19,7 +19,3 @@ Reflexia provides an **Advanced Database** feature that allows you to efficientl
 - Explore additional upcoming topics that will enhance your automation logic.
 
 🔍 Stay tuned for more in-depth guides and updates!
-
-
-
-📌 [Back to Documentation Home](../01_index.md)

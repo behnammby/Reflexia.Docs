@@ -77,7 +77,3 @@ To retrieve a specific item by its unique ID:
 - **Update an Item**: Modify existing records with new data.
 - **Delete an Item**: Remove records from the database when they are no longer needed.
 - **Replace an Item**: Substitute existing records with new data entirely.
-
-
-
-📌 [Back to Documentation Home](01_index.md)

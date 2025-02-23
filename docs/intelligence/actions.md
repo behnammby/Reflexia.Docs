@@ -115,7 +115,3 @@ Chips can have one or more actions associated with them. These actions are execu
 | **Get Item**             | Retrieves a specific item from storage.                  |
 | **Get Database ID**               | Gets the unique identifier for a storage item.           |
 | **Modify Item**          | Updates an existing item in storage.                     |
-
-
-
-📌 [Back to Documentation Home](01_index.md)

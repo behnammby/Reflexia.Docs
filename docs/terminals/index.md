@@ -29,7 +29,3 @@ To add a new terminal, follow these steps:
 | WhatsApp              | Coming Soon         |
 | Messenger             | Coming Soon         |
 | Twitter               | Coming Soon         |
-
-
-
-📌 [Back to Documentation Home](../01_index.md)
