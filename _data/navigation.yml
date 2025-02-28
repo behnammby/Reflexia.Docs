@@ -1,7 +1,5 @@
-- title: Home
-  url: /
 - title: Getting Started
-  url: /index.html
+  url: /
 - title: Adding Intelligence
   url: /intelligence/index.html
   subitems:
