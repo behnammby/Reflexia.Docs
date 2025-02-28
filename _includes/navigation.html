@@ -1,0 +1,23 @@
+<nav class="site-nav">
+  <div class="nav-wrapper">
+    <div class="site-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div>
+    <ul class="nav-menu">
+      {% for item in site.data.navigation %}
+      <li class="nav-item {% if item.subitems %}has-submenu{% endif %}">
+        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+        {% if item.subitems %}
+          <ul class="nav-submenu">
+            {% for subitem in item.subitems %}
+            <li class="nav-subitem">
+              <a href="{{ subitem.url | relative_url }}" {% if page.url == subitem.url %}class="active"{% endif %}>{{ subitem.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

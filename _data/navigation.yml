@@ -1,0 +1,26 @@
+- title: Home
+  url: /
+- title: Getting Started
+  url: /index.html
+- title: Adding Intelligence
+  url: /intelligence/index.html
+  subitems:
+    - title: Creating Chip Groups
+      url: /intelligence/chip-groups.html
+    - title: Adding Chips
+      url: /intelligence/chips.html
+    - title: Defining Conditions
+      url: /intelligence/conditions.html
+    - title: Using Variables
+      url: /intelligence/variables.html
+    - title: Managing Attributes
+      url: /intelligence/attributes.html
+    - title: Defining Actions
+      url: /intelligence/actions.html
+- title: Connecting to a Messaging App
+  url: /terminals/index.html
+- title: Advanced Topics
+  url: /advanced/index.html
+  subitems:
+    - title: Advanced Database
+      url: /advanced/advanced-database.html
