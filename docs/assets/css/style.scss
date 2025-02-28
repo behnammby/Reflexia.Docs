@@ -3,71 +3,137 @@
 
 @import "{{ site.theme }}";
 
-/* Sidebar container */
+// Variables
+$sidebar-width: 250px;
+$mobile-breakpoint: 768px;
+
+// Layout
 .main-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 100%;
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .sidebar {
-  // width: 250px;
-  // // background-color: #157878;
-  // padding: 20px;
-  // height: 100vh;
-  // position: fixed;
-  // left: 0;
-  // top: 0;
-  // overflow-y: auto;
-  flex-basis: 25%;
-  flex-grow: 1;
+    width: $sidebar-width;
+    min-width: $sidebar-width;
+    padding: 1rem;
+    background: #f7f7f7;
+    border-right: 1px solid #eee;
 }
 
-.sidebar nav ul {
-  // list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar nav ul li {
-  // margin-bottom: 10px;
-}
-
-.sidebar nav ul li a {
-  color: #999;
-  text-decoration: none;
-  /* font-weight: bold; */
-  display: block;
-  padding: 10px;
-  /* border-radius: 5px; */
-  /* transition: background 0.3s;*/
-}
-
-.sidebar nav ul li a:hover {
-  // background-color: #125e5b;
-}
-
-/* Submenu styles */
-.sidebar nav ul li ul {
-  // display: none;
-  display: block;
-  padding-left: 15px;
-}
-
-.sidebar nav ul li:hover ul {
-  // display: block;
-}
-
-/* Content section */
 .content {
-  flex-basis: 75%;
-  flex-shrink: 1;
-  // padding: 40px;
-  // margin-left: 250px;
-  padding-left: 50px;
+    flex: 1;
+    padding: 0 2rem;
+    min-width: 0; // Prevents flex item from overflowing
 }
 
-.page-header {
-  padding: 2rem;
+// Navigation styles
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar nav a {
+    display: block;
+    padding: 0.5rem;
+    color: #606c71;
+    text-decoration: none;
+    
+    &:hover {
+        color: #157878;
+        background: #eee;
+        border-radius: 4px;
+    }
+}
+
+// Sidebar toggle button
+.sidebar-toggle {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1000;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+    span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        margin: 4px 0;
+        background: #606c71;
+        transition: 0.3s;
+    }
+    
+    &.active {
+        span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+        span:nth-child(2) { opacity: 0; }
+        span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+    }
+}
+
+// Mobile responsive styles
+@media screen and (max-width: $mobile-breakpoint) {
+    .main-content {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .sidebar {
+        position: fixed;
+        left: -$sidebar-width;
+        top: 0;
+        height: 100%;
+        transition: 0.3s;
+        z-index: 999;
+        
+        &.active {
+            left: 0;
+            box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+        }
+    }
+    
+    .sidebar-toggle {
+        display: block;
+    }
+    
+    .content {
+        padding: 1rem 0;
+    }
+    
+    .page-header {
+        padding: 2rem 1rem;
+    }
+}
+
+// General responsive improvements
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+// Improve readability on mobile
+@media screen and (max-width: $mobile-breakpoint) {
+    html {
+        font-size: 16px;
+    }
+    
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.25rem; }
 }
