@@ -1,7 +1,7 @@
 - title: Getting Started
   url: /
 - title: Adding Intelligence
-  url: /intelligence/index.html
+  url: /intelligence/
   subitems:
     - title: Creating Chip Groups
       url: /intelligence/chip-groups.html
@@ -16,9 +16,9 @@
     - title: Defining Actions
       url: /intelligence/actions.html
 - title: Connecting to a Messaging App
-  url: /terminals/index.html
+  url: /terminals/
 - title: Advanced Topics
-  url: /advanced/index.html
+  url: /advanced/
   subitems:
     - title: Advanced Database
       url: /advanced/advanced-database.html
